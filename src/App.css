@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +41,52 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container-small {
+  width: 800px;
+  margin: 0 auto;
+}
+
+h2,
+h3 {
+  padding-left: 20px;
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  color: white;
+}
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+.border-none {
+  border-style: none;
+}
+
+.p-5 {
+  padding: 5px;
+}
+.ml-5 {
+  margin-left: 5px;
+}
+.mr-5 {
+  margin-right: 5px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.thead {
+  padding-bottom: 10px;
 }
